@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <script defer src="/app.js"></script>
+</head>
+<body onload="sizeSetter()">
+    <div class="container">
+        <video id="box" 
+        onclick="mouseClick(event)"
+        ontouchmove="touchClick(event)"
+        autoplay src="https://www.rmp-streaming.com/media/big-buck-bunny-360p.mp4">
+        </video>
+        <p id="xcord">x coordinates</p>
+        <p id="ycord">y coordinates</p>
+    </div>
+</body>
+</html>
